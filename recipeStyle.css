@@ -1,0 +1,90 @@
+.header-text
+{
+    font-size: 1.2em;
+    border-style: solid;
+    border-top-width: 0.01em;
+    border-bottom-width: 0.01em;
+    border-color: black;
+}
+
+h1{
+    font-size: 3em;
+}
+
+.ingredient{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.ingredient-type{
+    margin-left: 1em;
+}
+
+h3{
+    font-size: 1em;
+}
+
+h2{
+ font-size: 1.5em;
+}
+
+.section
+{
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+
+    background-color: #D3D3D3 ;
+}
+
+.step
+{
+    margin-top: 1em;
+}
+
+.quantity-portion{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.portion-element{
+    margin-left: 1em;
+    margin-top: 1em;
+    font-size: 1.8;
+}
+
+.review{
+    border-width: 0.01em;
+    border-style:solid;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.picture{
+    max-width: 100%;
+}
+
+.ingredient-start-text{
+    margin-top: 1em;
+    font-size: 1.2em;
+}
+
+
+@media screen and (min-width: 768px)
+{
+    .ingredient-step{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .picture{
+        max-width: 33%;
+        max-height: auto;
+    }
+
+    .food-div{
+        display: flex;
+        flex-wrap: nowrap;
+        max-width: fit-content;
+    }
+}
